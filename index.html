@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strayforward — Web Motion &amp; Interactive Design Studio</title>
+  <meta name="description" content="Portfolio of a web motion specialist and interactive visual designer bridging cinematic video production, motion graphics, and interactive web animation.">
+  
+  <!-- Tailwind CSS CDN for instant styling without build tools -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: '#0a0a0b',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#0a0a0b] text-neutral-100 font-sans selection:bg-orange-500/30">
+
+  <div class="min-h-screen bg-[#0a0a0b] text-neutral-100">
+    <!-- Grid Overlay Background -->
+    <div aria-hidden="true" class="pointer-events-none fixed inset-0 z-0 opacity-[0.35]" style="background-image:linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);background-size:48px 48px;mask-image:radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%)"></div>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-40 border-b border-white/5 bg-[#0a0a0b]/80 backdrop-blur-md">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="#top" class="font-mono text-sm font-semibold tracking-tight text-white">STRAYFORWARD<span class="text-orange-500">.</span></a>
+        <nav class="hidden items-center gap-8 md:flex">
+          <a href="#sandbox" class="text-sm text-neutral-400 transition-colors duration-300 hover:text-white">Sandbox</a>
+          <a href="#work" class="text-sm text-neutral-400 transition-colors duration-300 hover:text-white">Work</a>
+          <a href="#about" class="text-sm text-neutral-400 transition-colors duration-300 hover:text-white">About</a>
+          <a href="#contact" class="text-sm text-neutral-400 transition-colors duration-300 hover:text-white">Contact</a>
+        </nav>
+        <a href="#contact" class="rounded-full border border-white/15 px-4 py-1.5 text-sm text-neutral-200 transition-all duration-300 hover:border-orange-500/60 hover:text-white">Let's talk</a>
+      </div>
+    </header>
+
+    <main class="relative">
+      <!-- Hero Section -->
+      <section id="top" class="relative flex min-h-[92vh] items-center overflow-hidden px-6">
+        <div aria-hidden="true" class="absolute left-1/2 top-0 -z-10 h-[600px] w-[900px] -translate-x-1/2 rounded-full bg-orange-600/10 blur-[120px]"></div>
+        <div class="mx-auto flex max-w-6xl flex-col gap-8 py-24">
+          <div class="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-orange-500/80">
+            <span class="h-px w-8 bg-orange-500/60"></span>Web Motion Specialist &amp; Interactive Visual Designer
+          </div>
+          <h1 class="max-w-4xl text-5xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl">Crafting Motion &amp; Interactive Web Experiences.</h1>
+          <p class="max-w-2xl text-lg leading-relaxed text-neutral-400">Bridging cinematic video production, motion graphics, and interactive web animation.</p>
+          <div class="flex flex-wrap items-center gap-4 pt-4">
+            <a href="#work" class="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition-all duration-300 hover:bg-orange-500 hover:text-white">
+              Explore Work
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+            </a>
+            <a href="#contact" class="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-neutral-200 transition-all duration-300 hover:border-white/40 hover:text-white">Book a Motion Sprint</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sandbox Section -->
+      <section id="sandbox" class="relative px-6 py-28">
+        <div class="mx-auto max-w-6xl">
+          <div class="max-w-xl">
+            <div class="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-orange-500/80"><span class="h-px w-6 bg-orange-500/60"></span>Sandbox</div>
+            <h2 class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">Motion &amp; Interactive Sandbox</h2>
+            <p class="mt-4 text-base leading-relaxed text-neutral-400">A working set of the tools and techniques behind every project — built for real-time interactivity, not just showreels.</p>
+          </div>
+          <div class="mt-14 grid gap-6 md:grid-cols-3">
+            <!-- Card 1 -->
+            <div class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-8 transition-all duration-500 hover:-translate-y-1 hover:border-orange-500/40 hover:bg-white/[0.04]">
+              <div aria-hidden="true" class="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-orange-500/0 blur-2xl transition-all duration-500 group-hover:bg-orange-500/20"></div>
+              <div class="relative flex items-start justify-between">
+                <div class="flex h-12 w-12 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-orange-400 transition-all duration-500 group-hover:scale-110 group-hover:border-orange-500/40 group-hover:text-orange-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path></svg>
+                </div>
+                <span class="font-mono text-xs text-neutral-600 transition-colors duration-500 group-hover:text-orange-500/70">01</span>
+              </div>
+              <h3 class="relative mt-6 text-lg font-semibold text-white">Dynamic Framer Components</h3>
+              <p class="relative mt-3 text-sm leading-relaxed text-neutral-400">Modular, prop-driven components built in Framer that adapt their motion language to content — no two states move the same way.</p>
+              <div class="relative mt-6 h-px w-full origin-left scale-x-0 bg-gradient-to-r from-orange-500 to-transparent transition-transform duration-500 group-hover:scale-x-100"></div>
+            </div>
+            <!-- Card 2 -->
+            <div class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-8 transition-all duration-500 hover:-translate-y-1 hover:border-orange-500/40 hover:bg-white/[0.04]">
+              <div aria-hidden="true" class="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-orange-500/0 blur-2xl transition-all duration-500 group-hover:bg-orange-500/20"></div>
+              <div class="relative flex items-start justify-between">
+                <div class="flex h-12 w-12 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-orange-400 transition-all duration-500 group-hover:scale-110 group-hover:border-orange-500/40 group-hover:text-orange-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>
+                </div>
+                <span class="font-mono text-xs text-neutral-600 transition-colors duration-500 group-hover:text-orange-500/70">02</span>
+              </div>
+              <h3 class="relative mt-6 text-lg font-semibold text-white">Interactive Rive Vectors</h3>
+              <p class="relative mt-3 text-sm leading-relaxed text-neutral-400">State-machine-driven vector characters and UI elements that respond to cursor, scroll, and touch in real time.</p>
+              <div class="relative mt-6 h-px w-full origin-left scale-x-0 bg-gradient-to-r from-orange-500 to-transparent transition-transform duration-500 group-hover:scale-x-100"></div>
+            </div>
+            <!-- Card 3 -->
+            <div class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-8 transition-all duration-500 hover:-translate-y-1 hover:border-orange-500/40 hover:bg-white/[0.04]">
+              <div aria-hidden="true" class="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-orange-500/0 blur-2xl transition-all duration-500 group-hover:bg-orange-500/20"></div>
+              <div class="relative flex items-start justify-between">
+                <div class="flex h-12 w-12 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-orange-400 transition-all duration-500 group-hover:scale-110 group-hover:border-orange-500/40 group-hover:text-orange-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4.1 12 6"></path><path d="m5.1 8-2.9-.8"></path><path d="m6 12-1.9 2"></path><path d="M7.2 2.2 8 5.1"></path><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"></path></svg>
+                </div>
+                <span class="font-mono text-xs text-neutral-600 transition-colors duration-500 group-hover:text-orange-500/70">03</span>
+              </div>
+              <h3 class="relative mt-6 text-lg font-semibold text-white">Scroll-Driven Web Animations</h3>
+              <p class="relative mt-3 text-sm leading-relaxed text-neutral-400">Timeline-linked reveals, pinning, and parallax built with performance-first techniques for buttery scroll narratives.</p>
+              <div class="relative mt-6 h-px w-full origin-left scale-x-0 bg-gradient-to-r from-orange-500 to-transparent transition-transform duration-500 group-hover:scale-x-100"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Selected Work Section -->
+      <section id="work" class="relative border-t border-white/5 px-6 py-28">
+        <div class="mx-auto max-w-6xl">
+          <div class="max-w-xl">
+            <div class="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-orange-500/80"><span class="h-px w-6 bg-orange-500/60"></span>Selected Work</div>
+            <h2 class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">Selected Client Work</h2>
+            <p class="mt-4 text-base leading-relaxed text-neutral-400">A sample of recent collaborations spanning broadcast, sport, and digital agencies.</p>
+          </div>
+          <div class="mt-14 grid gap-6 md:grid-cols-3">
+            <!-- Project 1 -->
+            <a href="#contact" class="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-all duration-500 hover:-translate-y-1 hover:border-white/25">
+              <div class="relative flex aspect-[4/3] items-center justify-center overflow-hidden border-b border-white/10 bg-gradient-to-br from-neutral-900 to-black">
+                <div aria-hidden="true" class="pointer-events-none absolute inset-0 opacity-40 transition-opacity duration-500 group-hover:opacity-70" style="background-image:linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px);background-size:24px 24px"></div>
+                <div class="relative flex h-14 w-14 items-center justify-center rounded-full border border-white/20 bg-black/40 text-white transition-all duration-500 group-hover:scale-110 group-hover:border-orange-500/60 group-hover:bg-orange-500/20">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-0.5" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg>
+                </div>
+                <span class="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-widest text-neutral-500">Top Gear</span>
+              </div>
+              <div class="flex flex-1 flex-col gap-4 p-6">
+                <div class="flex items-start justify-between gap-4">
+                  <h3 class="text-lg font-semibold text-white">Launch Film &amp; Motion System</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 shrink-0 text-neutral-500 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-orange-400" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-400">Motion Design</span>
+                  <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-400">Video Production</span>
+                </div>
+              </div>
+            </a>
+            <!-- Project 2 -->
+            <a href="#contact" class="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-all duration-500 hover:-translate-y-1 hover:border-white/25">
+              <div class="relative flex aspect-[4/3] items-center justify-center overflow-hidden border-b border-white/10 bg-gradient-to-br from-neutral-900 to-black">
+                <div aria-hidden="true" class="pointer-events-none absolute inset-0 opacity-40 transition-opacity duration-500 group-hover:opacity-70" style="background-image:linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px);background-size:24px 24px"></div>
+                <div class="relative flex h-14 w-14 items-center justify-center rounded-full border border-white/20 bg-black/40 text-white transition-all duration-500 group-hover:scale-110 group-hover:border-orange-500/60 group-hover:bg-orange-500/20">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-0.5" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg>
+                </div>
+                <span class="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-widest text-neutral-500">Arena Sport</span>
+              </div>
+              <div class="flex flex-1 flex-col gap-4 p-6">
+                <div class="flex items-start justify-between gap-4">
+                  <h3 class="text-lg font-semibold text-white">Broadcast Identity &amp; Web Motion</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 shrink-0 text-neutral-500 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-orange-400" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-400">Web Motion</span>
+                  <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-400">Motion Design</span>
+                </div>
+              </div>
+            </a>
+            <!-- Project 3 -->
+            <a href="#contact" class="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-all duration-500 hover:-translate-y-1 hover:border-white/25">
+              <div class="relative flex aspect-[4/3] items-center justify-center overflow-hidden border-b border-white/10 bg-gradient-to-br from-neutral-900 to-black">
+                <div aria-hidden="true" class="pointer-events-none absolute inset-0 opacity-40 transition-opacity duration-500 group-hover:opacity-70" style="background-image:linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px);background-size:24px 24px"></div>
+                <div class="relative flex h-14 w-14 items-center justify-center rounded-full border border-white/20 bg-black/40 text-white transition-all duration-500 group-hover:scale-110 group-hover:border-orange-500/60 group-hover:bg-orange-500/20">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-0.5" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg>
+                </div>
+                <span class="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-widest text-neutral-500">404 Agency</span>
+              </div>
+              <div class="flex flex-1 flex-col gap-4 p-6">
+                <div class="flex items-start justify-between gap-4">
+                  <h3 class="text-lg font-semibold text-white">Interactive Case Study Site</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 shrink-0 text-neutral-500 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-orange-400" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-400">Web Motion</span>
+                  <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-400">Video Production</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="relative border-t border-white/5 px-6 py-28">
+        <div class="mx-auto grid max-w-6xl gap-16 md:grid-cols-[1fr_1.2fr]">
+          <div>
+            <div class="max-w-xl">
+              <div class="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-orange-500/80"><span class="h-px w-6 bg-orange-500/60"></span>About</div>
+              <h2 class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">About &amp; Background</h2>
+            </div>
+          </div>
+          <div class="flex flex-col gap-8 text-lg leading-relaxed text-neutral-300">
+            <p>My path into motion design started behind a camera, not a keyboard. Years directing short-form film taught me how a scene breathes — pacing, tension, release — and that lens now shapes every interface transition I build.</p>
+            <p>A background in <span class="text-white">cultural anthropology</span> keeps the work grounded: before animating anything, I ask who it's for and what story the motion is actually telling. Technique without intent is just noise.</p>
+            <p>Today that combination — <span class="text-white">film</span>, <span class="text-white">anthropology</span>, and <span class="text-white">modern web technologies</span> — lives in interactive sites, Rive-driven interfaces, and scroll-native storytelling for brands who want their web presence to move like a film, not a slideshow.</p>
+            
+            <div class="mt-4 flex flex-wrap gap-3">
+              <span class="flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.02] px-4 py-2 text-sm text-neutral-300 transition-colors duration-300 hover:border-orange-500/40 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-400" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M7 3v18"></path><path d="M3 7.5h4"></path><path d="M3 12h18"></path><path d="M3 16.5h4"></path><path d="M17 3v18"></path><path d="M17 7.5h4"></path><path d="M17 16.5h4"></path></svg>
+                Film Directing
+              </span>
+              <span class="flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.02] px-4 py-2 text-sm text-neutral-300 transition-colors duration-300 hover:border-orange-500/40 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-400" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                Cultural Anthropology
+              </span>
+              <span class="flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.02] px-4 py-2 text-sm text-neutral-300 transition-colors duration-300 hover:border-orange-500/40 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-400" aria-hidden="true"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path></svg>
+                Motion Design
+              </span>
+              <span class="flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.02] px-4 py-2 text-sm text-neutral-300 transition-colors duration-300 hover:border-orange-500/40 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-400" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                Web Development
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer & Contact Section -->
+    <footer id="contact" class="relative border-t border-white/5 px-6 py-28">
+      <div class="mx-auto max-w-6xl">
+        <div class="grid gap-16 md:grid-cols-[1fr_1fr]">
+          <div>
+            <div class="max-w-xl">
+              <div class="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-orange-500/80"><span class="h-px w-6 bg-orange-500/60"></span>Contact</div>
+              <h2 class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">Let's build something that moves.</h2>
+              <p class="mt-4 text-base leading-relaxed text-neutral-400">Have a launch film, product interaction, or scroll experience in mind? Tell me about it.</p>
+            </div>
+            
+            <a href="mailto:contact@strayforward.com" class="mt-8 inline-flex items-center gap-3 rounded-full border border-white/15 px-5 py-3 text-sm text-neutral-200 transition-all duration-300 hover:border-orange-500/50 hover:text-white">
+              contact@strayforward.com
+              <span class="text-xs text-neutral-500">Send mail</span>
+            </a>
+
+            <div class="mt-8 flex gap-6 text-sm text-neutral-400">
+              <a href="https://instagram.com" target="_blank" rel="noreferrer" class="transition-colors duration-300 hover:text-white">Instagram</a>
+              <a href="https://vimeo.com" target="_blank" rel="noreferrer" class="transition-colors duration-300 hover:text-white">Vimeo</a>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="transition-colors duration-300 hover:text-white">LinkedIn</a>
+              <a href="https://dribbble.com" target="_blank" rel="noreferrer" class="transition-colors duration-300 hover:text-white">Dribbble</a>
+            </div>
+          </div>
+
+          <!-- Netlify Contact Form -->
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-8">
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="flex flex-col gap-5">
+              <input type="hidden" name="form-name" value="contact">
+              <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+              
+              <div class="flex flex-col gap-1.5">
+                <label for="name" class="text-xs uppercase tracking-widest text-neutral-500">Name</label>
+                <input id="name" type="text" name="name" required placeholder="Your name" class="rounded-lg border border-white/10 bg-black/30 px-4 py-3 text-sm text-white outline-none transition-colors duration-300 placeholder:text-neutral-600 focus:border-orange-500/60">
+              </div>
+
+              <div class="flex flex-col gap-1.5">
+                <label for="email" class="text-xs uppercase tracking-widest text-neutral-500">Email</label>
+                <input id="email" type="email" name="email" required placeholder="you@company.com" class="rounded-lg border border-white/10 bg-black/30 px-4 py-3 text-sm text-white outline-none transition-colors duration-300 placeholder:text-neutral-600 focus:border-orange-500/60">
+              </div>
+
+              <div class="flex flex-col gap-1.5">
+                <label for="message" class="text-xs uppercase tracking-widest text-neutral-500">Project</label>
+                <textarea id="message" name="message" required rows="4" placeholder="What are we making?" class="resize-none rounded-lg border border-white/10 bg-black/30 px-4 py-3 text-sm text-white outline-none transition-colors duration-300 placeholder:text-neutral-600 focus:border-orange-500/60"></textarea>
+              </div>
+
+              <button type="submit" class="group mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition-all duration-300 hover:bg-orange-500 hover:text-white">
+                Send Message
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300 group-hover:translate-x-0.5" aria-hidden="true"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="mt-24 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 text-xs text-neutral-500 md:flex-row">
+          <span>© Strayforward — Web Motion Studio</span>
+          <span>Designed &amp; built with motion in mind.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
